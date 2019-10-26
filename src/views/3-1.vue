@@ -10,7 +10,6 @@ import axios from 'axios'
 export default {
   name: 'axios3-1',
   components: {
-    HelloWorld
   },
   created () {
     let instance = axios.create({
